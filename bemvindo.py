@@ -1,0 +1,5 @@
+print('Oi ! Quero te conhecer')
+nome = input("Qual o seu nome")
+print('oi '+ nome)
+idade = input('Digite sua idade')
+print('Sua idade = '+ idade + ' anos')
