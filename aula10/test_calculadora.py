@@ -1,6 +1,6 @@
 import unittest
 from calculadora import somar, subtrair
-from calculadora import dividir
+from calculadora import dividir, multiplicacao
 
 class TestCalculadora(unittest.TestCase):
 
