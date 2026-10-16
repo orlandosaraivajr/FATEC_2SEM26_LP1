@@ -19,6 +19,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(multiplicacao(2, 0), 0)
         self.assertEqual(multiplicacao(2, 1), 2)
         self.assertEqual(multiplicacao(1, 2), 2)
+        self.assertEqual(multiplicacao(9, 9), 81)
 
 if __name__ == '__main__':
     unittest.main()
